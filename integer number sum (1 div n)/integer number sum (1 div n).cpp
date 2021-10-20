@@ -6,7 +6,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 
 	int n;
-	float sum = 1;
+	float sum = 1; //В сумме всегда присутствует ноль, поэтому можно начинать с него
 	float sum_temp;
 	float one = 1;
 	/*19-я строка без него почему-то не работает.
